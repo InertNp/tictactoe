@@ -109,5 +109,7 @@ export const rules = (props) => {
 }
 
 export const reload = () => {
-    window.location.reload();
+    
+        window.location.reload();
+    
 }

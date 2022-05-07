@@ -1,12 +1,12 @@
 import { Header } from './Components/Header';
 import { Footer } from './Components/Footer';
-import { Main } from './Components/Main';
+import { LoadScreen } from './LoadScreen';
 
 function App() {
   return (
     <>
       <Header />
-      <Main />
+      <LoadScreen />
       <Footer />
     </>
   );

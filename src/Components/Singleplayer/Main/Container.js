@@ -1,7 +1,8 @@
 import { Button } from "./Button"
 import { useState } from "react"
-import { arr ,rules ,reload } from '../../Rules/Rules'
+import { arr ,rules ,reload } from '../../../Rules/Rules'
 export const Container = () => {
+
     const [icon, SetIcon] = useState(true)
     const [click , SetClick] = useState(0);
     const handleChangeIcon = () => {
@@ -22,7 +23,7 @@ export const Container = () => {
     if(click >= 4){
         rules();
     }
-    else if(click == 8 ){
+    else if(click === 8 ){
         reload();
     }
 
