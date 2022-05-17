@@ -22,9 +22,10 @@ export const Container = () => {
 
     if(click >= 4){
         rules();
-    }
-    else if(click === 8 ){
-        reload();
+        console.log(click)
+        if(click >= 9){
+            reload();
+        }
     }
 
     return <div className="container">
